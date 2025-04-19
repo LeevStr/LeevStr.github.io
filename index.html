@@ -41,6 +41,40 @@
     .button:hover {
       background-color: #e6c200;
     }
+    .qr-section {
+      margin-top: 2em;
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      flex-wrap: wrap;
+    }
+    .qr-item {
+      text-align: center;
+    }
+    .qr-item img {
+      width: 120px;
+      height: 120px;
+      border: 2px solid #fff;
+      border-radius: 8px;
+    }
+    .gallery {
+      margin-top: 3em;
+      text-align: center;
+    }
+    .gallery h2 {
+      margin-bottom: 1em;
+    }
+    .gallery-images {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      flex-wrap: wrap;
+    }
+    .gallery-images img {
+      width: 150px;
+      border-radius: 8px;
+      border: 2px solid #fff;
+    }
   </style>
 </head>
 <body>
@@ -48,10 +82,31 @@
     <h1>宝石の騎士</h1>
     <p>放置×採掘×RPG</p>
     <img class="screenshot" src="screenshot.png" alt="アプリのスクリーンショット">
-    
+
     <div class="buttons">
       <a class="button" href="https://play.google.com/store/apps/details?id=your.android.app">Androidでダウンロード</a>
       <a class="button" href="https://apps.apple.com/jp/app/idYourAppID">iOSでダウンロード</a>
+    </div>
+
+    <div class="qr-section">
+      <div class="qr-item">
+        <p>Android</p>
+        <img src="qr-android.png" alt="Android QRコード">
+      </div>
+      <div class="qr-item">
+        <p>iOS</p>
+        <img src="qr-ios.png" alt="iOS QRコード">
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <h2>スクリーンショット</h2>
+    <div class="gallery-images">
+      <img src="ss1.png" alt="スクリーンショット1">
+      <img src="ss2.png" alt="スクリーンショット2">
+      <img src="ss3.png" alt="スクリーンショット3">
+      <!-- 必要に応じて追加 -->
     </div>
   </div>
 </body>
